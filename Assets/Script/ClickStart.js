@@ -7,6 +7,7 @@ private var change : boolean;
 
 function Start () {
 alpha = 0;
+Time.timeScale = 1.0;
 }
 
 function Update () {

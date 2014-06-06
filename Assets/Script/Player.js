@@ -13,6 +13,7 @@ private var mainCamera : Camera;
 private var isJumpRelease:boolean = false;
 
 function Start () {
+Time.timeScale = 1.0;
 mainCamera = Camera.main;
 respawnPoint = transform.position;
 cameraScroll = transform.position.y;
